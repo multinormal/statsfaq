@@ -23,6 +23,8 @@ Now consider birth weight. Birth weight cannot be negative, so a distribution of
 
 Instead of estimating treatment effects with the interpretation above, some trials publish medians and quartiles by treatment arm. This practice is problematic because a difference in medians does not correspond to an expected difference. Readers may draw false conclusions about treatment effects.
 
+It may be tempting to lool at the median when data are skewed, but the median only tells you about the individual whose outcome is at the 50-th percentile, not any other individual, and not those with particularly poor or good outcomes.
+
 There are situations where reporting medians is reasonable—for example, if this was prespecified in the protocol with solid justification. But too often, medians are presented reactively because the data “look non-normal” and trialists believe that nonparametric methods are the only option. This belief reflects a deeper misunderstanding.
 
 ## A Common Misunderstanding: Normality Assumptions
