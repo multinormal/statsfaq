@@ -23,9 +23,9 @@ Now consider birth weight. Birth weight cannot be negative, so a distribution of
 
 Instead of estimating treatment effects with the interpretation above, some trials publish medians and quartiles by treatment arm. This practice is problematic because a difference in medians does not correspond to an expected difference. Readers may draw false conclusions about treatment effects.
 
-It may be tempting to lool at the median when data are skewed, but the median only tells you about the individual whose outcome is at the 50-th percentile, not any other individual, and not those with particularly poor or good outcomes.
+It may be tempting to look at the median when data are skewed, but the median only tells you about the individual whose outcome is at the 50-th percentile, not any other individual, and not those with particularly poor or good outcomes.
 
-There are situations where reporting medians is reasonable—for example, if this was prespecified in the protocol with solid justification. But too often, medians are presented reactively because the data “look non-normal” and trialists believe that nonparametric methods are the only option. This belief reflects a deeper misunderstanding.
+There are situations where reporting medians is reasonable—for example, if this was prespecified in the protocol with solid justification. But too often, medians seem to be presented reactively because the data “look non-normal” and trialists believe that nonparametric methods are the only option. This belief reflects a deeper misunderstanding.
 
 ## A Common Misunderstanding: Normality Assumptions
 
@@ -40,7 +40,7 @@ This means that skewed outcomes such as birth weight do not automatically justif
 Many outcomes in clinical trials have distributions that appear skewed or irregular. These distributions can often be explained in terms of baseline covariates ("risk factors"):
 
 * Categorical covariates: For birth weight, twins are about 10 times more likely to have very low weight compared to singletons (Centers for Disease Control and Prevention 2024). Mixtures of risk groups create distributions with multiple modes.
-* Continuous covariates: Outcome distributions with a mix of continuous covariates (e.g., maternal age and blood pressure) that predict outcome "blur" the outcome distribution, resulting in skewness.
+* Continuous covariates: Outcome distributions with continuous covariates (e.g., maternal age and blood pressure) that predict outcome "blur" the outcome distribution, resulting in skewness.
 * Sample size limitations: In small samples (fewer than ~1,000 participants), these patterns can be hard to see in a histogram, making distributions look simply “skewed.”
 
 Introductory statistics courses often teach that “skewed data require nonparametric methods” without connecting this skewness to its underlying causes. As a result, many trialists use nonparametric methods when a regression-based approach would be both valid and provide an easily-interpreted treatment effect estimate.
@@ -58,7 +58,7 @@ Specialized survival analysis methods (e.g., Kaplan–Meier, Cox regression) wer
 
 In general, trials should handle "non-normal" outcome data using regression-based methods with covariate adjustment (or reasonable alternatives). This generally means:
 
-* Including baseline covariates that are known to predict the outcome (e.g., baseline age and blood pressure).
+* Measuring and adjusting for baseline covariates that are known to predict the outcome (e.g., baseline age and blood pressure).
 * Following guidance from regulatory agencies such as the European Medicines Agency (2015) and the U.S. Food and Drug Administration (2023), both of which emphasize covariate adjustment.
 
 Why this matters:
@@ -75,7 +75,7 @@ When reviewing a trial that reports only medians, critical questions to ask incl
 2.  Did the authors provide a sound statistical justification for using medians instead of means?
 3.  Do the authors explain the observed distribution and consider whether covariate adjustment might address it?
 
-If the answer to these is “no,” it is plausible that medians were chosen reactively after seeing skewed data—an approach that substantially weakens the trial conclusions.
+If the answers to these are “no,” it is plausible that medians were chosen reactively after seeing skewed data—an approach that substantially weakens the trial conclusions.
 
 One should be very skeptical of a trial result based on an analysis that was not prespecified and was likely chosen based on a limited understanding of analytical options due to the high risk of bias in selection of the reported result.
 
