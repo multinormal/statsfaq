@@ -1,4 +1,4 @@
 # statsfaq
 Statistics FAQ
 
-Here is the [test](test)
+* [The Misuse of Nonparametric Methods in Randomized Trials](medians)
