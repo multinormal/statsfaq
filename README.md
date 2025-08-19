@@ -1,5 +1,5 @@
 # statsfaq
 Statistics FAQ
 
-* [The Misuse of Nonparametric Methods in Randomized Trials](medians)
+* [The misuse of nonparametric methods in randomized trials](medians)
 * [Meta-analysis of trials that publish armwise medians](mean-from-medians)

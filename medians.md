@@ -1,4 +1,4 @@
-# When Medians Replace Treatment Effects: The Misuse of Nonparametric Methods in Randomized Trials
+# The misuse of nonparametric methods in randomized trials
 
 ## Introduction
 
